@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: "Black Han Sans"
+} 
+
+* {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title1 {
+    color: white;
+    align-items: center;
+    font-size: 140px;
+    padding: 95px;
+}
+
+#title2 {
+    color: white;
+    font-size: 50px;
+    padding: 188px;
+}
+
+#menu1{
+    padding: 0px;
+}
+
+#menu2 {
+    padding: 0px 25px;
+}
+
+#menu3 {
+    padding: 0px 27px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00c853;
+    padding: 8px 8px;
+    flex-direction: column;
+}
+
+.navbar_logo {
+    padding: 60px 10px;
+}
+
+.navmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_menu{
+    padding: 80px;
+    font-size: 50px;
+    color: black;
+}
+
+.navbar_menu a:hover{
+    background-color: #00c853;
+}
