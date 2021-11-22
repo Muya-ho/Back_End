@@ -1,0 +1,26 @@
+body{
+    font-family: "Black Han Sans"
+} 
+
+* {
+    color: #5667BD;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_menu{
+    font-size: 50px;
+    color: #CEDFFF;
+}
+
+.navbar_menu a:hover{
+    background-color: #CEDFFF;
+}
