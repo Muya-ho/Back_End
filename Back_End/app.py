@@ -26,16 +26,16 @@ def near():
         lng=126, # hardcoded
         zoom=15,
         markers=[
-            {
-             'lat': 37.4941791,
-             'lng': 126.8564982,
-             'infobox': "<b>Hello World</b>"
-          },
-          {
-             'lat': 37.4952586,
-             'lng': 126.855954,
-             'infobox': "<b>Hello World from other place</b>"
-          }
+        {
+            'lat': 37.4941791,
+            'lng': 126.8564982,
+            'infobox': "<b>Hello World</b>"
+        },
+        {
+            'lat': 37.4952586,
+            'lng': 126.855954,
+            'infobox': "<b>Hello World from other place</b>"
+        }
         ]
     )
     return render_template('location.html', mymap = mymap)
