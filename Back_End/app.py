@@ -5,7 +5,7 @@ from flask_googlemaps import Map
 
 app = Flask(__name__, template_folder='templates')
 
-GoogleMaps(app, key="구글키")
+GoogleMaps(app, key="AIzaSyCm6kGkAftqRYTbdFLH7paHcnHJ31nwfXU")
 
 @app.route('/')
 def index():
@@ -13,7 +13,7 @@ def index():
 
 @app.route('/count')
 def count():
-    return '구별 쓰레기통 개수 보기'
+    return render_template('statistic.html')
 
 @app.route('/near', methods = ['GET'])
 def near():
