@@ -5,7 +5,7 @@ from flask_googlemaps import Map
 
 app = Flask(__name__, template_folder='templates')
 
-GoogleMaps(app, key="AIzaSyCm6kGkAftqRYTbdFLH7paHcnHJ31nwfXU")
+GoogleMaps(app, key="GoogleKey")
 
 @app.route('/')
 def index():
